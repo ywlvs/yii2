@@ -152,7 +152,7 @@ class AppAsset extends AssetBundle
 public $cssOptions = ['condition' => 'lte IE9'];
 ```
 
-这会是包中的CSS文件使用以下HTML标签包含进来：
+这会使包中的CSS文件使用以下HTML标签包含进来：
 
 ```html
 <!--[if lte IE9]>
